@@ -42,6 +42,14 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+
+      footer nav li{
+        list-style: none;
+        margin: 18px 0;
+      }
+      footer nav li a{
+        text-decoration: none;
+      }
     </style>
   </head>
   <body class="font-manrope">
@@ -330,8 +338,54 @@
       </section>
     </main>
 
-    <footer></footer>
+    <!-- footer section -->
+    <footer class="bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] p-10 text-base-content ">
+      <div class="max-w-7xl mx-auto flex gap-2 lg:justify-between my-6 lg:my-8">
+        <img src="images/cup.png" alt="" >
+        <p>
+          <span>Ready to get strated?</span>
+          <button class="btn bg-gradient-to-r from-start-color to-end-color">Get Started</button>
+        </p>
+      </div>
+     <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-16  max-w-7xl mx-auto">
+      <nav>
+        <header class="footer-title">Quick Links</header> 
+        <li><a class="link link-hover">Branding</a></li>
+        <li><a class="link link-hover">Design</a></li>
+        <li><a class="link link-hover">Marketing</a></li>
+        <li><a class="link link-hover">Advertisement</a></li>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <li><a class="link link-hover">Branding</a></li>
+        <li><a class="link link-hover">Design</a></li>
+        <li><a class="link link-hover">Marketing</a></li>
+        <li><a class="link link-hover">Advertisement</a></li>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <li><a class="link link-hover">Branding</a></li>
+        <li><a class="link link-hover">Design</a></li>
+      </nav> 
+      <form>
+        <header class="text-primary-color text-xl lg:text-2xl font-semibold">Subscribe to our <br> newsletter</header> 
+        <fieldset class=" w-40 lg:w-80"> 
+          <div class="flex mt-4">
+            <input type="text" placeholder="Email addres" class="border-b-2 border-gray-400 bg-transparent outline-none" /> 
+            <button class=" btn -ml-6 bg-gradient-to-r from-start-color to-end-color rounded-full "><i class="fa-solid fa-chevron-right text-white"></i></button>
+          </div>
+        </fieldset>
+      </form>
+     </div>
+
+     <div class="lg:max-w-7xl mt-10 mx-auto flex justify-center bg-gray-200 rounded-xl ">
+      <aside>
+        <p class="text-[#494949] text-sm lg:text-base  p-2 font-medium">Copyright © 2024 UIDesign.to - All rights reserved.</p>
+      </aside>
+     </div>
+      
+    </footer>
   </body>
 </html>
 
-<!-- bg-gradient-to-r from-start-color to-end-color -->
+<!-- bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] -->
